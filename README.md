@@ -7,7 +7,7 @@ This project was orchestrated for my final presentation in the Machine Learning 
 ### API_calling.py
 - Downloads data from the OpenVideo dataset.
 - Calls Google's Vertex AI API to get the embeddings for text and video.
-- Saves the embeddings to Google Cloud Storage (GCS).
+- Saves the videos and embeddings to Google Cloud Storage (GCS).
 
 ### extract_data.py
 - Loads embeddings from GCS into a dataframe.
@@ -21,6 +21,7 @@ This project was orchestrated for my final presentation in the Machine Learning 
 ### main.py
 - Displays embeddings in a 2D plot.
 - Includes clusters, text summarization, and semantic search functionality.
+- Retrieves data of selected points from google cloud
 
 ## Presentation
 - [Presentation slides with video demo](https://docs.google.com/presentation/d/1tyiTiqCbMVo-Hzz4pQcFkseUlFpZ8C-AMq71Y24cPcg/edit?usp=sharing)
